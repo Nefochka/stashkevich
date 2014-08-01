@@ -1,0 +1,175 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+}
+
+.blue {
+  color: #33aaff;
+}
+.darkblue{
+  color: #000080
+}
+.red {
+  color: red;
+}
+.white {
+  color: white;
+}
+.orange {
+  color: Orange;
+}
+.color-back {
+  color: DarkGreen;
+}
+.darkorange {
+  color: darkorange;
+}
+.black{
+  color: black;
+}
+.green {
+  color: green;
+}
+.darkgreen {
+  color: darkgreen;
+}
+.italic {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.OrangeRed {
+  color:OrangeRed;
+}
+
+.strong_my {
+  font-style: bold;
+}
+
+.nav-pills.menu-pills {
+  *zoom: 1;
+}
+
+.nav-pills.menu-pills:before,
+.nav-pills.menu-pills:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.nav-pills.menu-pills:after {
+  clear: both;
+}
+
+.nav-pills.menu-pills > li {
+  float: left;
+}
+
+.nav-pills.menu-pills > li > a {
+  padding-right: 12px;
+  padding-left: 12px;
+  margin-right: 2px;
+  line-height: 14px;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: orange;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+}
+
+ul_my,
+ol_my {
+  padding: 0;
+  margin: 0 0 10px 25px;
+  list-style-type: none;
+}
+
+.button_stash {
+   border-top: 1px solid #e8d615;
+   background: #f0822d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e67512), to(#f0822d));
+   background: -webkit-linear-gradient(top, #e67512, yellow);
+   background: -moz-linear-gradient(top, DarkGreen, yellow);
+   background: -ms-linear-gradient(top, #e67512, #f0822d);
+   background: -o-linear-gradient(top, #e67512, #f0822d);
+   padding: 15px 25px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 20px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.button_stash:hover {
+   border-top-color: #28597a;
+   background: yellow;
+   color: DarkGreen;
+}
+
+.button_stash:active {
+   border-top-color: #86a5ba;
+   background: #86a5ba;
+}
+
+.button_stash_menu {
+   border-top: 1px solid #e8d615;
+   background: #f0822d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e67512), to(#f0822d));
+   background: -webkit-linear-gradient(top, #e67512, yellow);
+   background: -moz-linear-gradient(top, OrangeRed, orange);
+   background: -ms-linear-gradient(top, #e67512, #f0822d);
+   background: -o-linear-gradient(top, #e67512, #f0822d);
+   padding: 11px 22px;
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 16px;
+   font-family: font_viel_emblema, font_viel_centr, Georgia, Serif;
+   font-style: italic;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+.button_stash_menu:hover {
+   border-top-color: #28597a;
+   background: orange;
+   color: #d6ced6;
+}
+
+.button_stash_menu:active {
+   border-top-color: #86a5ba;
+   background: #86a5ba;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: orange;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+}
+
